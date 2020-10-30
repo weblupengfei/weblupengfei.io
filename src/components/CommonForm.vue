@@ -75,9 +75,9 @@ export default {
 .el-dialog{
         .el-form-item{
              margin:10px;
-            .el-input__inner,.el-form-item__content{
-                width:200px;
-            }
+            // .el-input__inner,.el-form-item__content{
+            //     width:200px;
+            // }
             
         }
     }
