@@ -61,7 +61,13 @@ exports.cssLoaders = function (options) {
     postcss: generateLoaders(),
     less: generateLoaders('less'),
     sass: generateLoaders('sass', { indentedSyntax: true }),
-    scss: generateLoaders('sass'),
+    scss: generateLoaders('sass')
+    .concat({                         //设置全局颜色
+      loader:'sass-resources-loader',
+      options:{
+        resources:path.resolve(__dirname,'../src/assets/scss/_variable.scss')
+      }
+    }),
     stylus: generateLoaders('stylus'),
     styl: generateLoaders('stylus')
   }

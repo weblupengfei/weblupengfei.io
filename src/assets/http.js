@@ -4,7 +4,7 @@ import router from '../router'
 
 //请求拦截
 axios.interceptors.request.use(config=>{
-    console.log(1)
+    
     if(localStorage.accessToken){       //如果有token，设置请求头
         config.headers.Authorization=localStorage.accessToken
     }

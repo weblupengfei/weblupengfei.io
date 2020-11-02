@@ -15,3 +15,6 @@ export default {
     height:100vh;
   }
 </style>
+<style lang='scss'>
+@import './assets/scss/_variable.scss'
+</style>

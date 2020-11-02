@@ -6,7 +6,8 @@ import Router from 'vue-router'
 import router from './router'
 import store from './store'
 //引入公共样式
-import './assets/scss/reset.scss'
+// import './assets/scss/reset.scss'
+// import './assets/scss/_variable.scss'
 Vue.config.productionTip = false
 
 import ElementUI from 'element-ui'

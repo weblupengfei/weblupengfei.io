@@ -74,17 +74,13 @@ export default {
 <style  lang='scss'>
 .el-dialog{
         .el-form-item{
-             margin:10px;
-            // .el-input__inner,.el-form-item__content{
-            //     width:200px;
-            // }
-            
+             margin:10px;                       
         }
     }
 .el-form-item{
     height:30px;
     line-height: 27px;
-    margin:0;
+    margin-bottom:10px;
     .el-form-item__label{
         font-size:10px; 
         line-height: 30px;       

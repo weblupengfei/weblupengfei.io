@@ -305,7 +305,8 @@ export default {
         page: 1,
         pageSize: null,
         total: 25,
-        loading: false
+        loading: false,
+        type:'编辑'
       },
 
       rules: {
@@ -688,7 +689,9 @@ export default {
 .left {
   background-color: #eee;
 }
-
+.table{
+  margin-top:10px;
+}
 .form {
   display: flex;
   justify-content: space-between;
